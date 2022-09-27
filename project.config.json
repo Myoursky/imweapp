@@ -1,0 +1,50 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "uglifyFileName": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "appid": "wx4c8657f7527b7111",
+  "projectname": "imwebapp",
+  "libVersion": "2.26.1",
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "node_modules",
+        "type": "folder"
+      },
+      {
+        "value": ".map",
+        "type": "suffix"
+      },
+      {
+        "value": ".css",
+        "type": "suffix"
+      }
+    ],
+    "include": []
+  },
+  "scripts": {
+    "beforeCompile": "echo 1",
+    "beforePreview": "echo 2",
+    "beforeUpload": "echo 3"
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

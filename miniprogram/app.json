@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/demo/demo"
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "测试小程序",
+    "navigationBarTextStyle": "black"
+  }
+}

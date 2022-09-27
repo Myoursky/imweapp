@@ -1,0 +1,36 @@
+:root {
+  /*
+  * 红、绿、蓝色一般用于线条或 icon，如果要应用为文字则需要减少透明度10%，
+  * 如蓝色文字 color(var(--blue) l(-10%)) ，l 表示 lightness
+  */
+  --blue: var(--custom-blue, #23b8ff);
+  --green: var(--custom-green, #00d798);
+  --red: var(--custom-red, #ff6923);
+  --purple: var(--custom-purple, #3461fe);
+
+  /* 品牌紫色 */
+  --primary: var(--custom-primary, #23b8ff);
+
+  /* 品牌色 */
+
+  --gray: var(--custom-gray, #777);
+  --gray-light: var(--custom-gray-light, #bbb);
+  --gray-bg: var(--custom-gray-bg, #eee);
+  --gray-bg-ight: var(--custom-gray-bg-light, #f4f4f4);
+  --gray-line: var(--custom-gray-line, #ddd);
+  --color-link: var(--custom-color-link, color(var(--primary) l(-10%)));
+  --color-link-hover: var(--custom-color-link-hover, color(var(--color-link) alpha(-10%)));
+  --color-overlay: var(--custom-color-overlay, rgb(0 0 0 / 50%));
+  --color-error: var(--custom-color-error, var(--red));
+
+  /* 和红色一致 */
+  --color-success: var(--custom-color-success, var(--green));
+
+  /* 和绿色一致 */
+  --z-index-header: var(--custom-z-index-header, 1000);
+  --z-index-footer: var(--custom-z-index-footer, 2000);
+  --z-index-popup: var(--custom-z-index-popup, 3000);
+  --z-index-overlay: var(--custom-z-index-overlay, 4000);
+
+  /* 默认高于header和footer部分 */
+}

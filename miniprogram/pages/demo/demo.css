@@ -1,0 +1,12 @@
+@import "./../../assets/_function.css";
+
+.demo {
+  font-size: 28px;
+  color: #ff5d00;
+  display: flex;
+
+  .inner1 {
+    color: #1a1a1a;
+    margin: 0 20px;
+  }
+}

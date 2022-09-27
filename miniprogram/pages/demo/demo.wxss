@@ -1,0 +1,9 @@
+.demo {
+  font-size: 28px;
+  color: #ff5d00;
+}
+
+.demo .inner1 {
+  color: #1a1a1a;
+  margin: 0 20px;
+}

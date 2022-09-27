@@ -1,0 +1,4 @@
+<!--pages/demo/demo.wxml-->
+<view class="demo">
+  <view class="inner1">测试123</view>
+</view>
